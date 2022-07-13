@@ -4,7 +4,7 @@ const Account = () => {
     return (
         <div className='flex justify-between items-center my-2'>
 
-            <div className='flex'>
+            <div id="flexbox" className='flex'>
 
                 <div>
                     <img className='w-[40px] h-[40px] rounded-full' src="/profiles/deepika.jpg" alt="Deepika" />

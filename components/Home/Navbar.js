@@ -23,10 +23,11 @@ const Navbar = () => {
             </style>
 
 
-
             <div className='flex items-center justify-between w-[70%]'>
-                <div id="logo" >
-                    <img className='w-[120px]' src={require("../../resources/logo.png").default.src} alt="" />
+                <div id="logo" className='cursor-pointer' >
+                    <Link href={"/"}>
+                        <img className='w-[120px]' src={require("../../resources/logo.png").default.src} alt="" />
+                    </Link>
                 </div>
 
                 <div className='flex items-center'>

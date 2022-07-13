@@ -60,7 +60,9 @@ const Login = () => {
                         <p className='text-xs text-center'>forgot password ?</p>
 
                         <div className='flex justify-center pt-10 '>
-                            <p className='text-sm py-4'>don't have an account ? <span className=' text-blue-500'>Sign Up</span></p>
+                            <p className='text-sm py-4'>don't have an account ? <span className=' text-blue-500'><Link href={"/register"}>
+                            Sign Up
+                            </Link></span></p>
                         </div>
 
                         <p className='text-sm text-center '>Get the App</p>
